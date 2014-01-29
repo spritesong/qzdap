@@ -1,4 +1,4 @@
-SELECT C4_NAME AS "区域"
+SELECT C4_NAME AS "区域"  ff
       ,OFFICE_NAME AS "支局"
       ,DEPT_NAME AS "部门"
       ,COALESCE(YY_LEIB,'其他渠道') AS "渠道"
